@@ -25,7 +25,7 @@ const header = (entries, date, comment) => {
 		ext +
 		'\n\n' +
 		comment +
-		' This list cover all the tests on https://d3ward.github.io/toolz/adblock\n' +
+		' This list cover all the tests on https://bunnypranav.github.io/toolz/adblock\n' +
 		comment +
 		' Type : Stable\n' +
 		comment +
@@ -94,7 +94,7 @@ function build(obj, comment, pre, post) {
 	})
 	if (pre == '||')
 		txt +=
-			'\n*$3p,domain=d3ward.github.io\n/pagead.js$domain=d3ward.github.io\n@@*$redirect-rule,domain=d3ward.github.io\nd3ward.github.io##.textads'
+			'\n*$3p,domain=bunnypranav.github.io\n/pagead.js$domain=bunnypranav.github.io\n@@*$redirect-rule,domain=bunnypranav.github.io\nbunnypranav.github.io##.textads'
 	const date = new Date()
 	const d =
 		date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear()
